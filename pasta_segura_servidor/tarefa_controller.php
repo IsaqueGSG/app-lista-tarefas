@@ -1,8 +1,8 @@
 <?php
 
-require "../servidor/tarefa.model.php";
-require "../servidor/tarefa.service.php";
-require "../servidor/conexao.php";
+require "../pasta _segura_servidor/tarefa.model.php";
+require "../pasta _segura_servidor/tarefa.service.php";
+require "../pasta _segura_servidor/conexao.php";
 
 $acao = isset($_GET["acao"]) ? $_GET["acao"] : $acao ;
 
